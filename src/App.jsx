@@ -46,9 +46,9 @@ function App() {
   }, [])
   
   return (
-    <div className='w-full h-svh text-lg overflow-hidden text-dark'>
+    <div className='w-full h-svh lg:text-lg md:text-base text-xs overflow-hidden text-dark'>
       <div id='white-screen' className='w-full h-full fixed z-100 bg-light pointer-events-none'></div>
-      <p className='instruction-text fixed z-10 top-10 left-10 pl-3 pr-3 pt-1 pb-1 rounded-2xl font-serif text-center text-dark-100 bg-light/20 backdrop-blur-lg shadow-sm outline-1 outline-light-100 flex justify-center items-center gap-2'><BsArrowsMove />Tarik & Pindah</p>
+      <p className='instruction-text fixed z-10 bottom-10 left-1/2 -translate-x-1/2 pl-3 pr-3 pt-1 pb-1 rounded-2xl font-serif text-center text-dark-100 bg-light/20 backdrop-blur-lg shadow-sm outline-1 outline-light-100 flex justify-center items-center gap-2'><BsArrowsMove />Tarik & Pindah</p>
       {/* <Navbar /> */}
       <Main />
     </div>
