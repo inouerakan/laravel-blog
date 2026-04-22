@@ -6,8 +6,8 @@ export default function Center() {
     const base = import.meta.env.BASE_URL;
 
     return (
-        <div className="w-[75svw] h-[75svh] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex md:flex-row flex-col md:gap-0 gap-10">
-            <div className="flex-1 flex flex-col gap-3 md:justify-center justify-end">
+        <div className="center-container w-[75svw] h-[75svh] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex md:flex-row md:text-left text-center flex-col md:gap-0 gap-10">
+            <div className="flex-1 flex flex-col gap-3 md:justify-center justify-end items-center">
                 <h1 className="lg:text-8xl md:text-6xl text-4xl uppercase">Blog Laravel</h1>
                 <p className="font-serif text-dark-100">Halaman ini adalah portal yang akan mengarahkan anda ke koleksi blog mengenai proyek laravel yang saya miliki.</p>
             </div>

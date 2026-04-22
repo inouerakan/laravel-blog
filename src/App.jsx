@@ -10,6 +10,7 @@ gsap.registerPlugin(Draggable, InertiaPlugin, useGSAP);
 
 function App() {
   useGSAP(() => {
+    const isMobile = window.innerWidth < 768;
     const path = document.querySelector('.path-ref');
     const length = path.getTotalLength();
     const el = document.querySelector('#main-container');
@@ -38,7 +39,8 @@ function App() {
         gsap.to('.instruction-text', {scale: 0.95});
         if (firstDrag) {
           firstDrag = false;
-          gsap.to('.section-containers', {opacity: 1, delay: .5, ease: 'power1.inOut'});
+          gsap.to('.section-containers', {opacity: 1, delay: .5});
+          gsap.to('.center-container', {opacity: 0, delay: .5})
         }
         },
       onDragEnd: () => {gsap.to('.instruction-text', {scale: 1})}
