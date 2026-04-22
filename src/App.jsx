@@ -40,7 +40,8 @@ function App() {
         if (firstDrag) {
           firstDrag = false;
           gsap.to('.section-containers', {opacity: 1, delay: .5});
-          gsap.to('.center-container', {opacity: 0, delay: .5})
+          if (!isMobile) return;
+          gsap.to('.center-container', {opacity: 0, delay: .5});
         }
         },
       onDragEnd: () => {gsap.to('.instruction-text', {scale: 1})}
