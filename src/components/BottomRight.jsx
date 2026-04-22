@@ -12,7 +12,7 @@ export default function BottomRight() {
             <div className='absolute md:top-[4%] md:bottom-auto md:left-0 md:right-auto right-[10%] top-[5%] rotate-3'><Polaroid title={'井上和'} long={true} format={'webp'} /></div>
             <div className='absolute md:bottom-[15%] md:left-[21.5%] md:top-auto md:right-auto top-[27.5%] right-[9%] -rotate-4'><Polaroid title={'インディゴ地平線'} format={'webp'} /></div>
             <div className='absolute md:bottom-[11%] md:right-[7%] md:left-auto left-[10%] bottom-[30%] rotate-4'><Polaroid title={'ハチミツ'} long={false} format={'webp'} /></div>
-            <div className='absolute md:top-[7%] md:left-[33%] top-[26%] left-[5%]'><Description numColor={'#7BAFC4'} number={'7'} title={'Proyek apa ini?'} description={'template engine bawaan Laravel yang kuat dan sederhana, digunakan untuk merancang tampilan (view) HTML secara dinamis, rapi, dan efisien.'} numBottom={true} /></div>
+            <div className='absolute md:top-[7%] md:left-[33%] top-[26%] left-[5%]'><Description numColor={'#7BAFC4'} number={'7'} title={'Blade Views'} description={'template engine bawaan Laravel yang kuat dan sederhana, digunakan untuk merancang tampilan (view) HTML secara dinamis, rapi, dan efisien.'} numBottom={true} /></div>
             <div className='absolute md:bottom-[24%] md:right-[25%] bottom-[24%] right-[5%]'><Description numColor={'#1A2F4A'} number={'8'} title={'Bagaimana mengatur URL?'} description={'Untuk mengarahkan URL yang akan digunakan dalam sebuah proyek laravel, kita mengaturnya menggunakan routes.'} numBottom={true} numRight={true} /></div>
         </div>
     )
