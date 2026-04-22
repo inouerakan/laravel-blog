@@ -17,7 +17,7 @@ export default function Center() {
                     <p>SMK Student</p>
                     <div style={{backgroundImage: `url(${base}/images/smkn4.png)`}} className="w-6 h-6 bg-cover bg-center"></div>
                 </div>
-                <div className="absolute md:bottom-25 md:top-auto md:right-17 md:left-auto top-[25%] left-[15%] -rotate-4"><Polaroid title={'呼んでいる'} long={false} format={'png'} /></div>
+                <div className="absolute md:bottom-25 md:top-auto md:right-17 md:left-auto top-[25%] left-[15%] -rotate-4"><Polaroid title={'呼んでいる'} long={false} format={'webp'} /></div>
             </div>
         </div>
     );
